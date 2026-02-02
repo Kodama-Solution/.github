@@ -2,7 +2,7 @@
 name: "Template : \U0001F454 Gestion & Direction"
 about: Pour l'équipe Business. Focus sur les livrables, l'argent et l'organisation.
 title: "[Gestion/Business] - Titre"
-labels: ''
+labels: Gestion & Direction
 assignees: ''
 
 ---
@@ -15,7 +15,7 @@ assignees: ''
 - [ ] Détail 2
 
 ## ✅ Definition of Done (Critères de succès)
-*Explique en quelques phrases quels sont les buts à atteindre pour considérer la tâche terminée.
+*Explique en quelques phrases quels sont les buts à atteindre pour considérer la tâche terminée.*
 - [ ] La tâche est complétée.
 - [ ] Le document/livrable est déposé dans le Drive/Notion.
 - [ ] Si achat : La facture est comptabilisée dans le budget.
