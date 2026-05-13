@@ -1,7 +1,7 @@
 ---
 name: 'Template : ⚙️ Mécanique & Hardware'
 about: Pour l'équipe Méca. Focus sur la CAO, la fabrication et l'assemblage.
-title: "[Mécanique] - Titre"
+title: "[Mécanique]  [Nom de l'EPIC] - Titre"
 labels: Mécanique & Hardware
 assignees: ''
 
@@ -16,6 +16,8 @@ assignees: ''
 
 ## ✅ Definition of Done (Mécanique)
 *Explique en quelques phrases quels sont les buts à atteindre pour considérer la tâche terminée.*
+
+*Adaptez à vos besoins.*
 - [ ] La pièce est modélisée (CAO) et versionnée.
 - [ ] La pièce est fabriquée physiquement.
 - [ ] L'assemblage a été testé avec les vraies vis/écrous (pas d'interférence).
@@ -23,4 +25,4 @@ assignees: ''
 - [ ] Le poids réel correspond au budget de masse estimé.
 
 ## 🚧 Bloqueurs / Risques
-*Est-ce qu'il manque du matériel ou des outils ?*
+*Est-ce qu'il manque du matériel ou des outils? Est-ce qu'on a une commande à faire?*

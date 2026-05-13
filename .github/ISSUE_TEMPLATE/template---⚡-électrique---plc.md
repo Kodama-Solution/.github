@@ -1,7 +1,7 @@
 ---
 name: 'Template : ⚡ Électrique & PLC'
 about: Pour l'équipe Élec/Indus. Focus sur la sécurité, le câblage et les PCBs.
-title: "[Électrique] - Titre"
+title: "[Électrique] [Nom de l'EPIC] - Titre"
 labels: Électrique & PLC
 assignees: ''
 
@@ -16,6 +16,7 @@ assignees: ''
 
 ## ✅ Definition of Done (Électrique)
 *Explique en quelques phrases quels sont les buts à atteindre pour considérer la tâche terminée.*
+*Adapter la liste à vos besoins.*
 - [ ] Le schéma est mis à jour (Github/Drive).
 - [ ] Le câblage est fait proprement (étiquettes + tresses).
 - [ ] **Smoke Test :** Mise sous tension effectuée sans fumée.
@@ -23,6 +24,7 @@ assignees: ''
 - [ ] Les connecteurs sont sécurisés (colle chaude/vissage).
 
 ## ⚠️ Sécurité & Normes
+*Adapter à vos besoins. Effacer si vous le voulez*
 - [ ] Est-ce que cela touche à la Haute Tension ou aux Batteries ?
 - [ ] L'arrêt d'urgence coupe bien ce circuit ?
 
