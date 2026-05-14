@@ -9,6 +9,7 @@ assignees: Jabooby, stewarteaimee
 
 # Sprint Metadata
 **Sprint ID:** 
+**Time dedicated:** X week *1 à 4 semaines*
 
 **Objective:** 
 
@@ -20,6 +21,7 @@ assignees: Jabooby, stewarteaimee
 - 
 
 # Expected Deliverables
+*Mettre estimation de temps pour chaque. 1 semaines est 6 à 12h total de travail selon les personnes concerné.*
 - [ ] 
 
 # Dependencies & Blockers
