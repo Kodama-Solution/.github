@@ -12,15 +12,16 @@ Pour créer un nouvel EPIC :
 
 1. Va dans l'onglet **Issues** du répertoire (repository).
 2. Clique sur le bouton vert **New issue**.
-3. Dans la liste des templates, choisis **Template: 🗓️ Epic** en cliquant sur *Get started*.
+3. Dans la liste des templates, choisis **Template: 🗓️ Epic** en cliquant sur *New Issue*.
 
-> **[ 🖼️ INSÉRER CAPTURE D'ÉCRAN : Le bouton "New Issue" et la sélection du template EPIC ]**
+<img width="1664" height="822" alt="image" src="https://github.com/user-attachments/assets/ad5b51c9-2a16-46ba-b8a9-bad2801603e9" />
+
 
 ### Remplir un EPIC
 
 L'EPIC doit fournir une vue d'ensemble claire de ce qui sera accompli. Voici comment remplir les différentes sections en utilisant notre exemple de référence :
 
-> **[ 🔗 INSÉRER LIEN : Lien vers l'Issue #39 (L'EPIC d'exemple) ]**
+> **[Lien vers l'Issue #39 (L'EPIC d'exemple)](https://github.com/Kodama-Solution/Kodama-Solution-Planning/issues/39)**
 
 * **Titre :** Utilise la nomenclature `[EPIC] - sprint 0XX Name`. Exemple : `[EPIC] - sprint 007 Example`.
 * **Sprint Metadata :** * *Sprint ID :* Numéro du sprint (ex: 007).
@@ -37,19 +38,22 @@ L'EPIC doit fournir une vue d'ensemble claire de ce qui sera accompli. Voici com
 * **Dependencies & Blockers :** Ce qui doit être fait avant de commencer, ou ce qui bloque l'avancement.
 * **Definition of Done (DoD) :** Les critères stricts qui prouvent que le Sprint est un succès (ex: *Le tutoriel est complet, le tout est présenté à l'équipe*).
 
-> **[ 🖼️ INSÉRER CAPTURE D'ÉCRAN : L'Issue #39 remplie (Section du haut jusqu'au DoD) ]**
+<img width="1104" height="1233" alt="image" src="https://github.com/user-attachments/assets/488741c5-6923-400a-b07a-7a737b019ed1" />
+
 
 #### Attention!!!
 
 * **Ne sous-estime pas le temps :** Garde en tête qu'une semaine représente environ 6 à 12h de travail réel par personne 100% dédiée au sprint. Ne surcharge pas les livrables.
 * **Reste strict sur le "Out-of-Scope" :** Si une idée n'est pas dans le *In-Scope*, elle doit être documentée pour un futur Sprint, mais ne doit pas être commencée maintenant (Scope creep).
+* **Pas oublier de remplir le tableau de droite :** Ajoutez les informations minimal dans la section `Projects` "Planification Global" afin que le tout s'affiche bien. Notamment, la date de début, date de fin et le sprint actuel.
+
+<img width="557" height="1206" alt="image" src="https://github.com/user-attachments/assets/3466cde9-e34a-4b83-af73-812c736eb94f" />
 
 #### Validation avec Aimée ou Jacob
 
-Avant de lancer officiellement le Sprint et de commencer à travailler sur les tâches individuelles, l'EPIC doit être validé.
-
 * Assigne **Jabooby** (Jacob) et/ou **stewarteaimee** (Aimée) à l'issue pour qu'ils puissent réviser le *Scope* et le *Definition of Done*.
-* Attends leur approbation (un commentaire ou un *thumbs up* 👍) avant de démarrer.
+* Ils laisseront eur approbation (un commentaire ou un *thumbs up* 👍).
+* Au besoin, ils vous donneront du feedback et des changement à faire.
 
 ### Comment ajouter une tâche
 
@@ -58,8 +62,10 @@ L'EPIC agit comme un parent pour les tâches individuelles (Logiciel, Mécanique
 1. Ne fais pas le travail directement dans l'EPIC.
 2. Crée des nouvelles issues pour chaque tâche technique ou de gestion.
 3. Lie ces tâches à l'EPIC en utilisant la fonction de suivi (*Tracked by* / *Tasklist* de GitHub) pour que l'on puisse voir la barre de progression avancer.
+4. Ou bien, vous pouvez créez un "sub-issue" directemetn à partir de l'EPIC
 
-> **[ 🖼️ INSÉRER CAPTURE D'ÉCRAN : Comment lier une sous-tâche à l'EPIC (ex: via les Tasklists ou le menu de droite) ]**
+<img width="396" height="1033" alt="image" src="https://github.com/user-attachments/assets/634ca351-3bd5-40f5-958a-31cda94303de" />
+<img width="1452" height="580" alt="image" src="https://github.com/user-attachments/assets/3f25d88f-3060-482a-b04b-7115f59f2763" />
 
 ### À faire à la fin!
 
@@ -96,9 +102,9 @@ Pour créer une nouvelle tâche :
 * Vous pouvez aussi créer vos propres template à vous! Juste me le dire pour que je vous montre comment faire.
 
 
-4. Clique sur *Get started* sur le template approprié.
+4. Clique sur *Create* sur le template approprié.
 
-> **[ 🖼️ INSÉRER CAPTURE D'ÉCRAN : La liste des différents templates d'issues (Méca, Élec, Soft, Gestion) ]**
+<img width="953" height="882" alt="image" src="https://github.com/user-attachments/assets/7cb5bd24-a8b6-44ac-95d1-61adeba996e8" />
 
 ### Remplir une tâche
 
@@ -113,7 +119,8 @@ Chaque template a ses particularités, mais la structure de base reste la même 
 * **Definition of Done (DoD) :** C'est la section la plus importante. Coche les cases génériques qui s'appliquent à ta tâche, efface celles qui ne servent à rien, et ajoute tes propres critères de succès.
 * **Dépendances / Bloqueurs :** Si tu as besoin que l'équipe Électrique finisse de souder un connecteur avant de pouvoir tester ton code, écris-le ici et mentionne le numéro de leur issue (ex: `Dépend de l'issue #42`).
 
-> **[ 🖼️ INSÉRER CAPTURE D'ÉCRAN : Une tâche remplie avec un bon titre, une description claire et un Definition of Done personnalisé ]**
+<img width="1097" height="1146" alt="image" src="https://github.com/user-attachments/assets/258112e6-1437-4046-856a-e38cf76c221a" />
+
 
 **N'oublie pas de lier la tâche!**
 Assure-toi que ta tâche est bien connectée à l'EPIC parent (dans le menu de droite sous *Tracked by* ou *Projects*) pour que la barre de progression de l'EPIC se mette à jour automatiquement.
@@ -126,7 +133,8 @@ GitHub n'est pas juste une liste de choses à faire, c'est notre outil de commun
 * **Pose des questions :** Si tu es bloqué, tag un membre de l'équipe avec `@nom_utilisateur` pour lui demander de l'aide ou une révision de code.
 * **Documente les changements :** Si tu as dû changer de plan en cours de route (ex: *On a manqué de vis M4, j'ai adapté le design pour des M3*), écris-le dans les commentaires. Ça servira de documentation pour le futur.
 
-> **[ 🖼️ INSÉRER CAPTURE D'ÉCRAN : Un exemple de commentaire avec une image de CAO/Code ou un tag @membre ]**
+<img width="1097" height="1146" alt="image" src="https://github.com/user-attachments/assets/681fca19-072e-45e0-bab6-c0d97edbb443" />
+
 
 ### Fermer une tâche
 
@@ -137,7 +145,7 @@ Une tâche n'est pas terminée juste parce que tu as fini de travailler dessus. 
 3. Laisse un dernier petit commentaire avec le résultat final (ex: *Test concluant, le convoyeur tourne bien à la bonne vitesse*).
 4. Clique sur **Close issue** (ou laisse ton *Pull Request* fermer l'issue automatiquement si tu es en Logiciel).
 
-> **[ 🖼️ INSÉRER CAPTURE D'ÉCRAN : Le bouton "Close issue" et une vue de l'EPIC montrant la tâche barrée/complétée ]**
+<img width="1048" height="545" alt="image" src="https://github.com/user-attachments/assets/d3e4bb19-bb55-404c-9289-1f259f196dc7" />
 
 ---
 
