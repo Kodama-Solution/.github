@@ -1,7 +1,7 @@
 ---
 name: "Template: \U0001F5D3️ Epic "
 about: Template to create Epic (parent issue) with.
-title: "[EPIC] - sprint 0XX Name"
+title: "[EPIC] - S6-0XX/0XX Name"
 labels: Gestion & Direction
 assignees: Jabooby, stewarteaimee
 
